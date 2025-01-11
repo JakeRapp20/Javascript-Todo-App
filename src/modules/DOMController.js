@@ -170,9 +170,9 @@ class NavCard extends Component {
                 <label>
             Priority:
                 <select type="text" id="priority">
-                <option value="High">Low</option>
+                <option value="Low">Low</option>
                 <option value="Medium">Medium</option>
-                <option value="Low">High</option>
+                <option value="High">High</option>
                 </select>
             </label>
         </p>
