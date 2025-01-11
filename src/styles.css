@@ -1,0 +1,103 @@
+
+.project-card {
+    display: grid;
+    grid-column: span 12;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    border: solid black;
+    grid-gap: 1rem;
+}
+
+.project-card-title {
+
+}
+
+
+.project-card-description {
+    grid-column: span 4;
+}
+
+.project-card-priority {
+    grid-column: 6;
+}
+
+.task-card-box {
+    grid-column: 1 / span 6;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.task-card-title {
+
+}
+
+.task-card-describe {
+    grid-column: span 4;
+}
+
+.task-card-priority {
+    grid-column: 6;
+}
+
+.project-delete-button {
+    grid-column: 1;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    font-size: xx-large;
+    grid-column: 1 / span 7;
+    border: solid black;
+}
+
+
+main {
+    grid-row: 2 / span 5;
+    grid-column: 2 /span 5;
+    margin: 1rem;
+    margin-right: 1rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    margin-top: 2rem;
+    grid-gap: 1rem;
+}
+
+nav {
+    border: solid black;
+    grid-row: 2 / span 5;
+    max-width: 200px;
+    min-width: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.nav-button  {
+    justify-self: center;
+    align-items: center;
+    grid-column: 2 / span 1;
+    font-size: large;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+.nav-icon {
+    align-self: center;
+    justify-self: center;
+    grid-column: 2 / span 2;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    font-family: sans-serif;
+    margin: 0px;
+}
